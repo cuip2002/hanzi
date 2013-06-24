@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF8695017784DB70025C523 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF8694F17784DB70025C523 /* UIKit.framework */; };
+		0FF8695217784DB70025C523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF8695117784DB70025C523 /* Foundation.framework */; };
+		0FF8695417784DB70025C523 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF8695317784DB70025C523 /* CoreGraphics.framework */; };
+		0FF8695A17784DB70025C523 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8695817784DB70025C523 /* InfoPlist.strings */; };
+		0FF8695C17784DB70025C523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8695B17784DB70025C523 /* main.m */; };
+		0FF8696017784DB70025C523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8695F17784DB70025C523 /* AppDelegate.m */; };
+		0FF8696317784DB70025C523 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8696217784DB70025C523 /* ViewController.m */; };
+		0FF8696617784DB70025C523 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8696417784DB70025C523 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FF8694B17784DB70025C523 /* hanzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hanzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF8694F17784DB70025C523 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FF8695117784DB70025C523 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FF8695317784DB70025C523 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FF8695717784DB70025C523 /* hanzi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hanzi-Info.plist"; sourceTree = "<group>"; };
+		0FF8695917784DB70025C523 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FF8695B17784DB70025C523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FF8695D17784DB70025C523 /* hanzi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hanzi-Prefix.pch"; sourceTree = "<group>"; };
+		0FF8695E17784DB70025C523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FF8695F17784DB70025C523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FF8696117784DB70025C523 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0FF8696217784DB70025C523 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FF8696517784DB70025C523 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FF8694817784DB70025C523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF8695017784DB70025C523 /* UIKit.framework in Frameworks */,
+				0FF8695217784DB70025C523 /* Foundation.framework in Frameworks */,
+				0FF8695417784DB70025C523 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF8694017784DB60025C523 = {
+			isa = PBXGroup;
+			children = (
+				0FF8695517784DB70025C523 /* hanzi */,
+				0FF8694E17784DB70025C523 /* Frameworks */,
+				0FF8694C17784DB70025C523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FF8694C17784DB70025C523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8694B17784DB70025C523 /* hanzi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FF8694E17784DB70025C523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8694F17784DB70025C523 /* UIKit.framework */,
+				0FF8695117784DB70025C523 /* Foundation.framework */,
+				0FF8695317784DB70025C523 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FF8695517784DB70025C523 /* hanzi */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8695E17784DB70025C523 /* AppDelegate.h */,
+				0FF8695F17784DB70025C523 /* AppDelegate.m */,
+				0FF8696117784DB70025C523 /* ViewController.h */,
+				0FF8696217784DB70025C523 /* ViewController.m */,
+				0FF8696417784DB70025C523 /* ViewController.xib */,
+				0FF8695617784DB70025C523 /* Supporting Files */,
+			);
+			path = hanzi;
+			sourceTree = "<group>";
+		};
+		0FF8695617784DB70025C523 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8695717784DB70025C523 /* hanzi-Info.plist */,
+				0FF8695817784DB70025C523 /* InfoPlist.strings */,
+				0FF8695B17784DB70025C523 /* main.m */,
+				0FF8695D17784DB70025C523 /* hanzi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FF8694A17784DB70025C523 /* hanzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF8696917784DB70025C523 /* Build configuration list for PBXNativeTarget "hanzi" */;
+			buildPhases = (
+				0FF8694717784DB70025C523 /* Sources */,
+				0FF8694817784DB70025C523 /* Frameworks */,
+				0FF8694917784DB70025C523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hanzi;
+			productName = hanzi;
+			productReference = 0FF8694B17784DB70025C523 /* hanzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FF8694217784DB60025C523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = stjy;
+			};
+			buildConfigurationList = 0FF8694517784DB60025C523 /* Build configuration list for PBXProject "hanzi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FF8694017784DB60025C523;
+			productRefGroup = 0FF8694C17784DB70025C523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FF8694A17784DB70025C523 /* hanzi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FF8694917784DB70025C523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF8695A17784DB70025C523 /* InfoPlist.strings in Resources */,
+				0FF8696617784DB70025C523 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FF8694717784DB70025C523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF8695C17784DB70025C523 /* main.m in Sources */,
+				0FF8696017784DB70025C523 /* AppDelegate.m in Sources */,
+				0FF8696317784DB70025C523 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FF8695817784DB70025C523 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF8695917784DB70025C523 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FF8696417784DB70025C523 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF8696517784DB70025C523 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FF8696717784DB70025C523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FF8696817784DB70025C523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FF8696A17784DB70025C523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hanzi/hanzi-Prefix.pch";
+				INFOPLIST_FILE = "hanzi/hanzi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FF8696B17784DB70025C523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hanzi/hanzi-Prefix.pch";
+				INFOPLIST_FILE = "hanzi/hanzi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FF8694517784DB60025C523 /* Build configuration list for PBXProject "hanzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF8696717784DB70025C523 /* Debug */,
+				0FF8696817784DB70025C523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FF8696917784DB70025C523 /* Build configuration list for PBXNativeTarget "hanzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF8696A17784DB70025C523 /* Debug */,
+				0FF8696B17784DB70025C523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FF8694217784DB60025C523 /* Project object */;
+}
