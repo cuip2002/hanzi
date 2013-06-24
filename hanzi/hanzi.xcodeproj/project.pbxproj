@@ -77,6 +77,10 @@
 		0FF8695517784DB70025C523 /* hanzi */ = {
 			isa = PBXGroup;
 			children = (
+				0FF86970177850610025C523 /* imageSource */,
+				0FF8696E17784FD30025C523 /* New Group */,
+				0FF8696D17784FBB0025C523 /* DataManager */,
+				0FF8696C17784F790025C523 /* mainPage */,
 				0FF8695E17784DB70025C523 /* AppDelegate.h */,
 				0FF8695F17784DB70025C523 /* AppDelegate.m */,
 				0FF8696117784DB70025C523 /* ViewController.h */,
@@ -96,6 +100,34 @@
 				0FF8695D17784DB70025C523 /* hanzi-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FF8696C17784F790025C523 /* mainPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = mainPage;
+			sourceTree = "<group>";
+		};
+		0FF8696D17784FBB0025C523 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		0FF8696E17784FD30025C523 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		0FF86970177850610025C523 /* imageSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = imageSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
